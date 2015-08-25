@@ -5,7 +5,7 @@ public class DestoryByContact : MonoBehaviour
 {
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Boundary"))
+        if (other.tag == "Boundary")
         {
             return;
         }
